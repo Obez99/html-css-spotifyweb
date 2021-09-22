@@ -1,0 +1,34 @@
+.main-container{
+  width: 100%;
+  height: calc(100vh - 100px);
+  background-color: red;
+
+  display: flex;
+  flex-direction:row;
+}
+
+.side-bar{
+  width:40px;
+  height: 100%;
+  background-color: green;
+  
+}
+
+.upper-bar{
+  width:100%;
+  height: 100px;
+  background-color: yellow;
+}
+
+.middle-content{
+  width:100%;
+  height: 100%;
+  background-color: thistle;
+}
+
+.bottom-play-bar{
+  height: 100px;
+  background-color: blue;
+}
+
+
