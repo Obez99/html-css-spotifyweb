@@ -7,6 +7,58 @@
   cursor:pointer;
 }
 
+.side-bar ul img{
+  width:30px;
+}
+
+.side-bar span{
+  /*display:none;*/
+}
+
+.side-bar-section:nth-of-type(3){
+  flex-grow:1;
+}
+
+.side-bar-section:nth-of-type(1){
+  margin-top:0;
+}
+
+.side-bar a{
+  color:#878787;
+}
+
+.side-bar li img,span{
+  vertical-align: middle;
+}
+
+.side-bar li a{
+  font-size: 13px;
+}
+
+.side-bar-download img, span{
+  vertical-align: middle;
+}
+
+.side-bar-download img{
+  width:20px;
+}
+
+.add-playlist>button{
+  width:50px;
+  height: 50px;
+  font-size: 50px;
+  background-color: #878787;
+  color:black;
+  cursor:pointer;
+  position: relative;
+}
+
+.add-playlist>button div{
+  position: absolute;
+  top:50%;
+  left:50%;
+  transform: translate(-50%, -50%);
+}
 
 .main-container{
   width: 100%;
@@ -18,11 +70,43 @@
 }
 
 .side-bar{
-  width:40px;
   height: 100%;
   background-color: #000000;
   flex-shrink: 0;
+  padding:10px;
+
+  display:flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
 }
+
+.side-bar-section{
+  width: 100%;
+  margin-top:20px;
+}
+
+.side-bar-download{
+  border-bottom: 1px solid #878787;
+  font-size: 12px;
+}
+
+.user-image{
+  width:25px;
+  height: 25px;
+  background-color: #878787;
+  border-radius: 50%;
+  display:inline-block;
+  object-fit: contain;
+  overflow:hidden;
+  vertical-align: middle;
+}
+
+.user-name{
+  display:inline-block;
+  vertical-align:middle;
+}
+
 
 .upper-bar{
   padding:20px;
