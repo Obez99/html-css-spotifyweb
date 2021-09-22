@@ -1,0 +1,35 @@
+@media screen and (max-width:576px){
+
+  .logo-large{
+    display:none;
+  }
+
+  .side-bar span{
+    display:none;
+  }
+
+  .side-bar-section:nth-of-type(2){
+    flex-grow:1;
+  }
+
+  .side-bar-section:nth-of-type(3),.side-bar-section:nth-of-type(4){
+    display: none;
+  }
+
+  .side-bar{
+    width: 50px;
+  }
+
+  
+.logo-small{
+  display:block;
+}
+
+.side-bar-download{
+  border:0;
+}
+
+.user-name{
+  display:none;
+}
+}

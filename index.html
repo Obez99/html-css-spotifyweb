@@ -11,6 +11,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/default.css">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
 
     <meta name="viewport" content="width=device-width, initial-scale=1">
   </head>
@@ -21,7 +22,8 @@
 
       <div class="side-bar">
         <div class="side-bar-section">
-        <a href="#"><img src="img/logo.svg" alt="logo"></a>
+        <a href="#" class="logo-large"><img src="img/logo.svg" alt="logo"></a>
+        <a href="#" class="logo-small"><img src="img/logo-small.svg" alt="logo"></a>
         </div>
 
         <div class="side-bar-section">
@@ -43,28 +45,34 @@
             </button>
             <span>Crea Playlist</span>
           </div>
-
-          <ul>
-            <li><a href="#">Nome Playlist</a></li>
-            <li><a href="#">Nome Playlist</a></li>
-            <li><a href="#">Nome Playlist</a></li>
-            <li><a href="#">Nome Playlist</a></li>
-            <li><a href="#">Nome Playlist</a></li>
-            <li><a href="#">Nome Playlist</a></li>
-            <li><a href="#">Nome Playlist</a></li>
-          </ul>
         </div>
+
+          <div class="side-bar-section">
+            <ul>
+              <li><a href="#">Nome Playlist</a></li>
+              <li><a href="#">Nome Playlist</a></li>
+              <li><a href="#">Nome Playlist</a></li>
+              <li><a href="#">Nome Playlist</a></li>
+              <li><a href="#">Nome Playlist</a></li>
+              <li><a href="#">Nome Playlist</a></li>
+              <li><a href="#">Nome Playlist</a></li>
+            </ul>
+          </div>
+        
 
         <div class="side-bar-section">
           <div class="side-bar-download">
-            <img src="img/download.svg" alt="download">
-            <span>Installa app</span>
+            <a href="#">
+              <img src="img/download.svg" alt="download">
+              <span>Installa app</span>
+            </a>
           </div>
 
           <div class="side-bar-user">
-            <div class="user-image">
+            <a href="#" class="user-image">
               <img src="img/profile.svg" alt="profile">
-            </div>
+            </a>
+            
             <div class="user-name">
               <h4>John Doe</h4>
             </div>
