@@ -92,17 +92,21 @@
   max-height: 30px;
 }
 
-.bottom-play-bar span{
-  font-size: 10px;
+.play-bar-actions button{
+  display:block;
 }
 
 .play-bar-section:nth-of-type(2){
   flex-direction: column;
-  flex-grow: 1;
+  width: 50%;
+}
+
+.play-bar-section:nth-of-type(3){
+  justify-content:flex-end;
 }
 
 .play-bar-mini-buttons button{
-  padding: 0 5px;
+  padding: 0 2px;
 }
 
 .play-bar-buttons i{
@@ -223,6 +227,7 @@
 
 .bottom-play-bar{
   height: 100px;
+  padding:10px;
   background-color: #282828;
   
   display:flex;
@@ -231,23 +236,27 @@
 }
 
 .play-bar-section{
-  width: 25%;
   display:flex;
-  justify-content: center;
   align-items: center;
+  width:25%;
 }
 
 .play-bar-image{
   object-fit: contain;
 }
 
-.play-bar-artists{
+.play-bar-artist{
+  min-width: 50px;
+  max-width: 100px;
   font-size: 10px;
+  padding: 0 5px;
 }
+
 
 .play-bar-buttons{
   display:flex;
   justify-content: center;
+  margin-bottom: 10px;
   
 }
 
@@ -258,18 +267,30 @@
   align-items: center;
 }
 
+.play-bar-time{
+  color:white;
+  padding: 0 10px;
+  font-size: 12px;
+}
+
 .progression-bar{
   display:inline-block;
   height: 5px;
-  background-color: grey;
+  background-color: #5a5a5a;
   border-radius: 20px;
   flex-grow: 1;
 }
 
 .progression-bar-mini{
+
+  width:80px;
   height: 5px;
-  background-color: grey;
+  background-color: #5a5a5a;
   border-radius: 20px;
+}
+
+.play-bar-mini-buttons{
+  min-width: 70px;
 }
 
 .far.fa-play-circle{
