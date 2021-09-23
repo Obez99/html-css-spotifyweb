@@ -88,8 +88,8 @@
 }
 
 .play-bar-image img{
-  max-width: 30px;
-  max-height: 30px;
+  max-width: 50px;
+  max-height: 50px;
 }
 
 .play-bar-actions button{
@@ -274,19 +274,21 @@
 }
 
 .progression-bar{
-  display:inline-block;
   height: 5px;
   background-color: #5a5a5a;
   border-radius: 20px;
   flex-grow: 1;
 }
 
-.progression-bar-mini{
-
-  width:80px;
+.progression-bar-status{
+  width:30%;
+  background-color: #c1c1c1;
   height: 5px;
-  background-color: #5a5a5a;
-  border-radius: 20px;
+}
+
+.progression-bar-mini{
+  width:80px;
+  flex-grow:0;
 }
 
 .play-bar-mini-buttons{
