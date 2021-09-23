@@ -31,4 +31,20 @@
 .user-name{
   display:none;
 }
+
+.box-container{
+  max-width: calc(100% / 2 - 30px);
+}
+}
+
+@media screen and (min-width:577px) and (max-width:991px){
+  .box-container{
+    max-width: calc(100% / 3 - 30px);
+  }
+}
+
+@media screen and (min-width:992px) and (max-width:1199px){
+  .box-container{
+    max-width: calc(100% / 4 - 30px);
+  }
 }
