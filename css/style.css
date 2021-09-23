@@ -85,8 +85,31 @@
 
 .box-image.artist-box img{
   border-radius: 50%;
-
 }
+
+.play-bar-image img{
+  max-width: 30px;
+  max-height: 30px;
+}
+
+.bottom-play-bar span{
+  font-size: 10px;
+}
+
+.play-bar-section:nth-of-type(2){
+  flex-direction: column;
+  flex-grow: 1;
+}
+
+.play-bar-mini-buttons button{
+  padding: 0 5px;
+}
+
+.play-bar-buttons i{
+  font-size: 15px;
+  padding: 0 10px;
+}
+
 
 /*******************************************/
 .main-container{
@@ -185,6 +208,7 @@
   max-width: calc(100% / 6 - 30px);
   max-height: 100%;
   text-align: center;
+  font-size:13px;
 }
 
 .box-image{
@@ -199,6 +223,57 @@
 
 .bottom-play-bar{
   height: 100px;
-  background-color: blue;
+  background-color: #282828;
+  
+  display:flex;
+  justify-content: space-between;
+  align-items: center;
 }
+
+.play-bar-section{
+  width: 25%;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.play-bar-image{
+  object-fit: contain;
+}
+
+.play-bar-artists{
+  font-size: 10px;
+}
+
+.play-bar-buttons{
+  display:flex;
+  justify-content: center;
+  
+}
+
+.play-bar-progression{
+  width:100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.progression-bar{
+  display:inline-block;
+  height: 5px;
+  background-color: grey;
+  border-radius: 20px;
+  flex-grow: 1;
+}
+
+.progression-bar-mini{
+  height: 5px;
+  background-color: grey;
+  border-radius: 20px;
+}
+
+.far.fa-play-circle{
+  font-size: 30px;
+}
+
 

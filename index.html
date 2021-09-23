@@ -9,9 +9,12 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+
     <link rel="stylesheet" href="css/default.css">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/responsive.css">
+    
 
     <meta name="viewport" content="width=device-width, initial-scale=1">
   </head>
@@ -104,8 +107,8 @@
           <h2>Recently played</h2>
           <div class="row">
           
+            <!--Metal-->
             <div class="box-container">
-
                 <div class="box-image">
                   <button>
                     <img src="img/metal_lifting.jpg" alt="heavy-metal">
@@ -118,12 +121,11 @@
 
               <div class="box-subtitle">
                 <span>Subtitle</span>
-              </div>
-              
+              </div>          
             </div>
 
+            <!--Stranger Things-->
             <div class="box-container">
-
               <div class="box-image">
                 <button>
                   <img src="img/stranger.jpeg" alt="stranger-things-vol-1">
@@ -137,11 +139,10 @@
               <div class="box-subtitle">
                 <span>Kyle Dixon & Michael Stein</span>
               </div>
-              
             </div>
 
+            <!--A Quiet Place-->
             <div class="box-container">
-
               <div class="box-image">
                 <button>
                   <img src="img/aquietplace.jpeg" alt="a-quiet-place">
@@ -155,11 +156,10 @@
               <div class="box-subtitle">
                 <span>Subtitle</span>
               </div>
-              
             </div>
 
+            <!--Split-->
             <div class="box-container">
-
               <div class="box-image">
                 <button>
                   <img src="img/split.jpeg" alt="split">
@@ -173,11 +173,10 @@
               <div class="box-subtitle">
                 <span>Subtitle</span>
               </div>
-              
             </div>
 
+            <!--A cure for wellness-->
             <div class="box-container">
-
               <div class="box-image">
                 <button>
                   <img src="img/cure.jpeg" alt="a-cure-for-wellness">
@@ -190,12 +189,11 @@
 
               <div class="box-subtitle">
                 <span>Subtitle</span>
-              </div>
-              
+              </div> 
             </div>
 
+            <!--Sinister-->
             <div class="box-container">
-
               <div class="box-image">
                 <button>
                   <img src="img/sinister.jpeg" alt="sinister">
@@ -210,14 +208,16 @@
                 <span>Subtitle</span>
               </div>
             </div>
+
           </div>
 
+          <!--Created for user-->
           <h2>Creato per John Doe</h2>
           <span>Più ascolti, più accurati saranno i suggerimenti.</span>
           <div class="row">
 
+            <!--Release Radar-->
             <div class="box-container">
-
               <div class="box-image">
                 <button>
                   <img src="img/radar.jpeg" alt="release-radar">
@@ -229,8 +229,8 @@
               </div>
             </div>
 
+            <!--Daily Mix 1-->
             <div class="box-container">
-
               <div class="box-image">
                 <button>
                   <img src="img/mixdaily.jpeg" alt="daily-mix">
@@ -241,13 +241,16 @@
                 <h3>Daily Mix 1</h3>
               </div>
             </div>
+
           </div>
 
+          <!--Popular artists-->
           <h2>Artisti più popolari</h2>
           <span>Più ascolti, più accurati saranno i suggerimenti.</span>
           <div class="row">
-            <div class="box-container">
 
+            <!--Lana del Rey-->
+            <div class="box-container">
               <div class="box-image artist-box">
                 <button>
                   <img src="img/youg.jpeg" alt="lana-del-rey">
@@ -259,8 +262,8 @@
               </div>
             </div>
 
+            <!--Ludovico Einaudi-->
             <div class="box-container">
-
               <div class="box-image artist-box">
                 <button>
                   <img src="img/einaudi.jpeg" alt="ludovico-einaudi">
@@ -271,6 +274,7 @@
                 <h3>Ludovico Einaudi</h3>
               </div>
             </div>
+
           </div>
         </div>
       </div>
@@ -278,7 +282,56 @@
     </div>
     <!--Bottom Play Bar-->
     <div class="bottom-play-bar">
-      
+
+      <!--Left play bar section-->
+      <div class="play-bar-section">
+        <div class="play-bar-image">
+          <img src="img/sinister.jpeg" alt="sinister-playing">
+        </div>
+
+        <div class="play-bar-artist">
+          <div class="artist-name"><h5>Sinister</h5></div>
+          <div class="song-name"><span>Brano Nome</span></div>
+        </div>
+
+        <div class="play-bar-actions">
+            <button>
+              <span><i class="far fa-heart"></i></span>
+            </button>
+
+            <button>
+              <span><i class="far fa-folder"></i></span>
+            </button>
+        </div>
+      </div>
+
+      <div class="play-bar-section">
+
+        <div class="play-bar-buttons">
+          <button><i class="fas fa-random"></i></button>
+          <button><i class="fas fa-step-backward"></i></button>
+          <button><i class="far fa-play-circle"></i></button>
+          <button><i class="fas fa-step-forward"></i></button>
+          <button><i class="fas fa-redo"></i></button>
+        </div>
+
+        <div class="play-bar-progression">
+          <span>0:25</span>
+          <div class="progression-bar"></div>
+          <span>4:35</span>
+        </div>
+
+      </div>
+
+      <div class="play-bar-section">
+        <div class="play-bar-mini-buttons">
+          <button><i class="fas fa-list"></i></button>
+          <button><i class="fas fa-tv"></i></button>
+          <button><i class="fas fa-volume-up"></i></button>
+        </div>
+        <div class="progression-bar-mini"></div>
+      </div>
+
     </div>
   </body>
 </html>
