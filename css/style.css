@@ -96,6 +96,10 @@
   display:block;
 }
 
+.play-bar-actions i{
+  font-size: 15px;
+}
+
 .play-bar-section:nth-of-type(2){
   flex-direction: column;
   width: 50%;
@@ -247,7 +251,6 @@
 
 .play-bar-artist{
   min-width: 50px;
-  max-width: 100px;
   font-size: 10px;
   padding: 0 5px;
 }
