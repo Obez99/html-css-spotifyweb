@@ -35,3 +35,11 @@ a{
 ul{
   list-style: none;
 }
+
+hr{
+  width: 30%;
+  border-color: lightgreen;
+  position:absolute;
+  left:50%;
+  transform:translate(-50%);
+}
