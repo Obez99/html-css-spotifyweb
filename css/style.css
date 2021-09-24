@@ -4,6 +4,7 @@
   border-radius: 20px;
   padding: 10px;
   vertical-align: middle;
+  transition: transform 0.2s;
 }
 
 .side-bar ul img{
@@ -33,7 +34,7 @@
 }
 
 .side-bar-section:nth-of-type(2) ul li:first-child{
-  border-left: 3px solid lightgreen;
+  border-left: 2px solid #adff2f;
   margin-left: -20px;
   padding-left: 17px;
 }
@@ -51,7 +52,7 @@
   margin-bottom:10px;
 }
 
-.add-playlist>button{
+.add-playlist button{
   width:50px;
   height: 50px;
   font-size: 50px;
@@ -68,14 +69,29 @@
   transform: translate(-50%, -50%);
 }
 
+.add-playlist a{
+  padding: 20px 0;
+}
+
 .nav-bar li{
   display: inline-block;
   margin-bottom: 20px;
   position:relative;
 }
 
+.nav-bar li:nth-of-type(1) :after{
+  content: "";
+  width: 30%;
+  height: 2px;
+  background-color: #adff2f;
+  position:absolute;
+  left:50%;
+  bottom: -5px;
+  transform:translate(-50%);
+}
+
 .nav-bar a{
-  padding: 20px;
+  padding: 10px;
 }
 
 .box-image img{
@@ -230,11 +246,12 @@
 
 .box-image{
   object-fit: contain;
-  padding-bottom: 20px;
+  position:relative;
 }
 
 .box-title{
   padding-bottom: 10px;
+  padding-top:20px;
 }
 
 

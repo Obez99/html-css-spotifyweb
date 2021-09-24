@@ -19,27 +19,27 @@
   .side-bar{
     padding:10px;
   }
-  
-.logo-small{
-  display:block;
-}
 
-.side-bar-download{
-  border:0;
-}
+  .logo-small{
+    display:block;
+  }
 
-.user-name{
-  display:none;
-}
+  .side-bar-download{
+    border:0;
+  }
 
-.box-container{
-  max-width: calc(100% / 2 - 30px);
-}
+  .user-name{
+    display:none;
+  }
 
-.play-bar-image img{
-  max-width: 30px;
-  max-height: 30px;
-}
+  .box-container{
+    max-width: calc(100% / 2 - 30px);
+  }
+
+  .play-bar-image img{
+    max-width: 30px;
+    max-height: 30px;
+  }
 }
 
 @media screen and (min-width:577px) and (max-width:991px){
