@@ -249,6 +249,19 @@
   position:relative;
 }
 
+.song-overlay{
+  position:absolute;
+  top:50%;
+  left:50%;
+  color:white;
+  transform: translate(-50%, -50%);
+  display:none;
+}
+
+.far.fa-play-circle.song-overlay{
+  font-size: 30px;
+}
+
 .box-title{
   padding-bottom: 10px;
   padding-top:20px;
@@ -260,7 +273,7 @@
   padding:10px;
   background-color: #282828;
   position: relative;
-  z-index: 1;
+  z-index: 99;
   
   display:flex;
   justify-content: space-between;
