@@ -327,7 +327,10 @@
 .progression-bar-status{
   width:30%;
   background-color: #c1c1c1;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
   height: 5px;
+  position:relative;
 }
 
 .progression-bar-mini{

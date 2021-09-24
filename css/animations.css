@@ -43,3 +43,32 @@
   display:block;
   cursor:pointer;
 }
+
+.song-name:hover a{
+  text-decoration: underline;
+  color:white;
+}
+
+.play-bar-actions button:hover span{
+  color:white;
+}
+
+.play-bar-buttons .fa-play-circle:hover{
+  transform: scale(1.2);
+}
+
+.progression-bar:hover .progression-bar-status{
+  background-color:#adff2f;
+}
+
+.progression-bar:hover .progression-bar-status:after{
+  content: "";
+  width: 20px;
+  height:20px;
+  background-color: white;
+  border-radius: 50%;
+  position:absolute;
+  right:0;
+  top:50%;
+  transform: translate(50%,-50%);
+}
