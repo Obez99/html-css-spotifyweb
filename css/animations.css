@@ -31,7 +31,11 @@
   cursor:pointer;
 }
 
-.box-image:hover .song-overlay{
+.overlay-button:hover{
+  transform: scale(1.2);
+}
+
+.box-image:hover .overlay-button{
   bottom:20px;
   cursor:pointer;
 }

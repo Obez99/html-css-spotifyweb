@@ -278,16 +278,17 @@
   transition: opacity 0.5s;
 }
 
-.song-overlay{
+.overlay-button{
   background-color: #adff2f;
   padding:10px;
   border-radius: 50%;
   box-shadow: 5px 5px 20px black;
   position:absolute;
-  bottom:10px;
+  bottom:0;
   right:20px;
   color:white;
-  transition:bottom 0.5s;
+  transform: scale(1);
+  transition:bottom 0.5s, transform 0.3s;
 }
 
 .box-title{
