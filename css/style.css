@@ -17,6 +17,10 @@
   overflow: auto;
 }
 
+.side-bar-section:nth-of-type(4) a{
+  padding: 5px 0;
+}
+
 .side-bar-section:nth-of-type(1){
   margin-top:0;
 }
@@ -68,6 +72,7 @@
 
 .add-playlist button{
   font-size: 50px;
+  width: 100%;
   color:black;
   position: absolute;
   top:50%;
