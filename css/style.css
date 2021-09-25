@@ -112,20 +112,17 @@
   height: 100%;
 }
 
+.box-image.artist-box{
+  border-radius: 50%;
+  overflow:hidden;
+}
+
 .main-content h2{
   margin-bottom: 15px;
 }
 
 .row .box-container{
   display:inline-block;
-}
-
-.box-image.artist-box img{
-  border-radius: 50%;
-}
-
-.box-image.artist-box .box-overlay{
-  border-radius: 50%;
 }
 
 .play-bar-image img{

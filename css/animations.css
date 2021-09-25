@@ -36,7 +36,7 @@
 }
 
 .box-image:hover .overlay-button{
-  bottom:20px;
+  bottom:30px;
   cursor:pointer;
 }
 
