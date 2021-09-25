@@ -26,21 +26,13 @@
   color:white;
 }
 
-.box-image:hover:before{
-  content:"";
-  width: 100%;
-  height: 100%;
-  background-color:rgba(0, 0, 0, 0.5);
-  position: absolute;
+.box-image:hover .box-overlay{
+  opacity: 100%;
   cursor:pointer;
 }
 
-.box-image.artist-box:hover:before{
-  border-radius:50%;
-}
-
-.box-image:hover i{
-  display:block;
+.box-image:hover .song-overlay{
+  bottom:20px;
   cursor:pointer;
 }
 
