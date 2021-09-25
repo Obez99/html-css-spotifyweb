@@ -42,6 +42,12 @@
   }
 }
 
+@media screen and (max-height:700px){
+  .upper-bar{
+    display:none;
+  }
+}
+
 @media screen and (min-width:577px) and (max-width:991px){
   .box-container{
     max-width: calc(100% / 3 - 30px);
