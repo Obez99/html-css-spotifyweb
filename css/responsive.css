@@ -33,7 +33,7 @@
   }
 
   .box-container{
-    max-width: calc(100% / 2 - 30px);
+    max-width: calc(100% / 2 - 15px);
   }
 
   .play-bar-image img{

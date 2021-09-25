@@ -52,17 +52,18 @@
   margin-bottom:10px;
 }
 
-.add-playlist button{
+.add-playlist>div{
   width:50px;
   height: 50px;
-  font-size: 50px;
+  display: inline-block;
   background-color: #878787;
-  color:black;
   position: relative;
   vertical-align: middle;
 }
 
-.add-playlist>button div{
+.add-playlist button{
+  font-size: 50px;
+  color:black;
   position: absolute;
   top:50%;
   left:50%;
