@@ -31,13 +31,17 @@
   cursor:pointer;
 }
 
-.overlay-button:hover{
+.box-image:not(.artist-box) .overlay-button:hover{
   transform: scale(1.2);
 }
 
 .box-image:hover .overlay-button{
   bottom:30px;
   cursor:pointer;
+}
+
+.artist-box:hover .overlay-button{
+  bottom: 50%;
 }
 
 .song-name:hover a{

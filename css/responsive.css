@@ -37,8 +37,16 @@
   }
 
   .play-bar-image img{
-    max-width: 30px;
-    max-height: 30px;
+    max-width: 40px;
+    max-height: 40px;
+  }
+
+  .play-bar-actions{
+    display:none;
+  }
+
+  .play-bar-mini-buttons button i:not(.fa-volume-up){
+    display:none;
   }
 }
 
@@ -52,6 +60,7 @@
   .box-container{
     max-width: calc(100% / 3 - 30px);
   }
+
 }
 
 @media screen and (min-width:992px) and (max-width:1199px){

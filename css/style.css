@@ -117,6 +117,11 @@
   overflow:hidden;
 }
 
+.artist-box .overlay-button{
+  right:50%;
+  transform: translate(50%, 50%);
+}
+
 .main-content h2{
   margin-bottom: 15px;
 }
@@ -126,8 +131,8 @@
 }
 
 .play-bar-image img{
-  max-width: 50px;
-  max-height: 50px;
+  max-width: 60px;
+  max-height: 60px;
 }
 
 .play-bar-actions button{
@@ -148,12 +153,18 @@
 }
 
 .play-bar-mini-buttons button{
-  padding: 0 2px;
+  padding: 0 5px;
 }
 
 .play-bar-buttons i{
   font-size: 15px;
   padding: 0 10px;
+}
+
+.play-bar-buttons .far.fa-play-circle{
+  font-size: 30px;
+  transform: scale(1);
+  transition: transform 0.1s;
 }
 
 /*******************************************/
@@ -318,7 +329,7 @@
 
 .play-bar-artist{
   min-width: 50px;
-  font-size: 10px;
+  font-size: 13px;
   padding: 0 5px;
 }
 
@@ -360,16 +371,15 @@
 }
 
 .progression-bar-mini{
-  width:80px;
+  width:100px;
   flex-grow:0;
 }
 
 .play-bar-mini-buttons{
-  min-width: 70px;
-}
-
-.far.fa-play-circle{
-  font-size: 30px;
+  max-width: 80px;
+  text-align: end;
+  padding-right: 10px;
+  display:flex;
 }
 
 /*************************************/
